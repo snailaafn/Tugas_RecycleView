@@ -7,6 +7,10 @@ android {
     namespace = "com.example.tugas_recycleview"
     compileSdk = 34
 
+    buildFeatures {
+        viewBinding = true
+    }
+
     defaultConfig {
         applicationId = "com.example.tugas_recycleview"
         minSdk = 24
